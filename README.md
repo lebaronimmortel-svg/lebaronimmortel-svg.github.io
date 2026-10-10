@@ -1,4 +1,4 @@
-<div style="background-color: black; color: white; padding: 16px; border-radius: 6px;">
+<div markdown ="1" style="background-color: black; color: white; padding: 16px; border-radius: 6px;">
 
 # 📑 Guide de Mise en Page Avancée en Markdown
 
@@ -63,5 +63,5 @@ Pour un contrôle total des couleurs, bordures et arrondis :
 <div style="border: 2px dashed #6366f1; background: #eef2ff; padding: 12px; border-radius: 8px; font-family: sans-serif;">
   <strong>💡 Astuce :</strong> Collez votre contenu ici !
 </div>
-</div>
 ```
+</div>
