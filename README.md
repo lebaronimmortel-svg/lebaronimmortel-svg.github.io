@@ -1,3 +1,10 @@
+<style>
+  body {
+    background-color: #121212 !important;
+    color: #e0e0e0 !important;
+  }
+</style>
+
 <div markdown ="1" style="background-color: black; color: white; padding: 16px; border-radius: 6px;">
 
 # 📑 Guide de Mise en Page Avancée en Markdown
