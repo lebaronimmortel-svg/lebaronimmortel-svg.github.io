@@ -5,29 +5,11 @@
   }
 </style>
 
-<div markdown ="1" style="background-color: black; color: white; padding: 16px; border-radius: 6px;">
+<div markdown ="1" style="background-color: #121212; color: white; padding: 16px; border-radius: 6px;">
 
 # 📑 Guide de Mise en Page Avancée en Markdown
 
 
-## 1. 🔤 Typographie et Polices d'Écriture
-
-
-### Styles Markdown Natifs
-
-
-### Personnalisation via HTML / CSS
-
-
-## 2. 📦 Boîtes et Encadrés
-
-### A. Encadrés Natifs Markdown (Blockquotes & Callouts GitHub)
-
----
-
-### B. Encadrés Avancés Personnalisés (HTML / CSS)
-
-Pour un contrôle total des couleurs, bordures et arrondis :
 
 <div style="background-color: #eff6ff; border-left: 5px solid #3b82f6; padding: 15px; border-radius: 6px; margin: 15px 0;">
   <strong style="color: #1d4ed8;">ℹ️ Encadré d'Information</strong>
@@ -62,6 +44,8 @@ Pour un contrôle total des couleurs, bordures et arrondis :
 | **Carte / Cartouche** | `<div style="border: 1px solid...">` | Bloc encadré complet |
 
 ---
+
+
 
 ## 4. 📝 Résumé Pratique
 
