@@ -67,8 +67,8 @@ When they had recovered their senses a little, they walked toward Lisbon; they h
 Hardly had they set foot in the city, weeping over the death of their benefactor, when they felt the earth tremble beneath their feet; the sea rose boiling in the harbour and shattered the ships at anchor. Whirlwinds of flames and ashes covered the streets and public squares; houses collapsed, roofs were thrown down upon their foundations, and the foundations scattered; thirty thousand inhabitants of every age and sex were crushed beneath the ruins. The sailor said, whistling and swearing: "There will be something to gain here." — "What can be the sufficient reason for this phenomenon?" said Pangloss. — "This is the last day of the world!" cried Candide. The sailor ran immediately into the midst of the rubble, braved death to find money, found some, seized it, got drunk, and, having slept off his wine, bought the favours of the first girl of good will he met on the ruins of the shattered houses, amidst the dying and the dead. Pangloss, however, pulled him by the sleeve. "My friend," said he, "this is not right; you are failing universal reason, you choose your time poorly." — "Blood and thunder!" replied the other, "I am a sailor, born at Batavia; I have trodden upon the crucifix four times during four voyages to Japan; you have certainly found the right man with your universal reason!"
 
 Some fragments of falling stone had wounded Candide; he lay stretched out in the street, covered with rubble. He said to Pangloss: "Alas! get me a little wine and oil; I am dying." — "This earthquake is no new thing," Pangloss replied; "the city of Lima suffered the same tremors in America last year; same causes, same effects: there is certainly a vein of sulphur underground from Lima to Lisbon." — "Nothing is more probable," said Candide; "but, for God's sake, a little oil and wine."</p>
-
-<span style="font-style: italic;">Extract from Candide, by Voltaire</span>
+<br></br>
+<span style="font-size: 12px; font-style: italic;">Extract from Candide, by Voltaire</span>
 
 </div>
 
