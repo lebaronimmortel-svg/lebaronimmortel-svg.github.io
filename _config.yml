@@ -1,4 +1,3 @@
-title: ""
 markdown: kramdown
 plugins:
   - jekyll-remote-theme
