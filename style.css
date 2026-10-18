@@ -383,3 +383,10 @@ a:hover {
   color: var(--text);
   text-decoration: none;
 }
+
+.separator {
+  border: 0;
+  border-top: 1px solid var(--border, #e2e8f0);
+  margin: 3rem 0; /* Ajuste l'espace au-dessus et en dessous */
+  width: 100%;
+}
