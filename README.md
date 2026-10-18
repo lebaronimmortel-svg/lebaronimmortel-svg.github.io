@@ -50,6 +50,7 @@
 </div>
 </div>
 
+
 ## Compétences & Technologies
 
 <div class="skills-wrapper">
