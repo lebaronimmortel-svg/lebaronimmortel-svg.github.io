@@ -1,4 +1,0 @@
-title: "Alexandre <span class='accent'>Dupont</span>"
-markdown: kramdown
-plugins:
-  - jekyll-remote-theme
