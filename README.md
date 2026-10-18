@@ -1,74 +1,128 @@
-<style>
-  body {
-    background-color: #121212 !important;
-    color: #e0e0e0 !important;
-  }
-</style>
+<nav class="nav">
+  <span class="nav-brand">Alexandre FUENTES</span>
+  <div class="nav-links">
+    <a href="#projets-récents">Projets</a>
+    <a href="#parcours">Parcours</a>
+    <a href="#articles-récents">Écrits</a>
+    <a href="#me-trouver-en-ligne">Contact</a>
+  </div>
+</nav>
 
 
-<div style="background: linear-gradient(145deg, #1e293b, #0f172a); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 10px; padding: 16px; color: #f1f5f9; font-family: system-ui, sans-serif; margin: 16px 0;">
+<link rel="stylesheet" href="./style.css">
 
-  <div style="font-size: 16px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: #38bdf8;">Welcome to My GitHubPage</div>
+<div class="hero">
+  <span class="badge">Disponible pour des missions</span>
+  <h1>coucou</h1>
+  <p class="lead">Développeur fullstack orienté performance, interfaces sobres et architecture logicielle.</p>
+  <div class="hero-links">
+    <a href="https://github.com/ton-profil" class="btn btn-primary">GitHub</a>
+    <a href="mailto:contact@exemple.fr" class="btn btn-secondary">Me contacter</a>
+  </div>
+</div>
 
-  <br><div style="font-size: 12px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: #38bdf8;">⛏ The place is still in building but...</div>
+## Projets récents
 
-  <p style="margin: 8px 0 0 0; font-size: 14px; color: #cbd5e1; line-height: 1.5;">There lived in Westphalia, in the castle of the Baron of Thunder-ten-tronckh, a young boy on whom nature had bestowed the gentlest of manners. His countenance reflected his soul. He had a fairly sound judgment combined with the simplest of minds; it is, I believe, for this reason that he was named Candide. The old servants of the household suspected him of being the son of the Baron's sister by a good and honest gentleman of the neighbourhood, whom this lady would never consent to marry because he could prove only seventy-one quarterings, the rest of his genealogical tree having been lost through the injury of time.
+<div class="grid">
+<div class="card">
+  <h3>💻 Minishell</h3>
+  <p>Interface d'invite de commande </p>
+  <div><span class="tag">C</span></div>
+  <p><a href="https://github.com/lebaronimmortel-svg/minishell"><br>Voir le code →</a></p>
+</div>
+<div class="card">
+  <h3> 🧊 Cub3D</h3>
+  <p>Jeu de tir 3D à la première personne</p>
+  <div><span class="tag">C</span></div>
+  <p><a href="https://github.com/lebaronimmortel-svg/cub3D"><br>Voir le code →</a></p>
+</div>
+<div class="card">
+  <h3>#️⃣ ft_irc</h3>
+  <p>Serveur de chat</p>
+  <div><span class="tag">C++</span></div>
+  <p><a href="https://github.com/lebaronimmortel-svg/ft_irc.git"><br>Voir le code →</a></p>
+</div>
+<div class="card">
+  <h3>♟️ ft_transcendence</h3>
+  <p>Jeu d'échecs en ligne</p>
+  <div><span class="tag">TypeScript</span><span class="tag">Docker</span></span></div>
+  <p><a href="https://github.com/doooriian/Transcendence"><br>Voir le code →</a></p>
+</div>
+</div>
 
-Monsieur the Baron was one of the most powerful lords in Westphalia, for his castle had a door and windows. His great hall was even adorned with a tapestry. All the dogs of his farmyards formed a pack of hounds when need arose; his grooms were his huntsmen; the village curate was his grand almoner. They all called him My Lord, and they laughed whenever he told stories.
+## Compétences & Technologies
 
-Madame the Baroness, who weighed about three hundred and fifty pounds, earned by that very fact a great deal of consideration, and did the honours of the house with a dignity that made her still more respectable. Her daughter Cunégonde, seventeen years of age, was fresh-coloured, lively, plump, and appetizing. The Baron's son appeared in every way worthy of his father. The tutor Pangloss was the oracle of the household, and little Candide listened to his lessons with all the good faith natural to his age and character.
+<div class="skills-wrapper">
+  <div class="skill-category">
+    <h4>Langages</h4>
+    <div class="skill-tags">
+      <span>TypeScript</span>
+      <span>Go</span>
+      <span>Python</span>
+      <span>SQL</span>
+    </div>
+  </div>
+  <div class="skill-category">
+    <h4>Frameworks & Outils</h4>
+    <div class="skill-tags">
+      <span>Node.js</span>
+      <span>PostgreSQL</span>
+      <span>Docker</span>
+      <span>Tailwind CSS</span>
+    </div>
+  </div>
+  <div class="skill-category">
+    <h4>Pratiques</h4>
+    <div class="skill-tags">
+      <span>CI/CD</span>
+      <span>API REST & GraphQL</span>
+      <span>TDD</span>
+      <span>Clean Architecture</span>
+    </div>
+  </div>
+</div>
 
-Pangloss taught metaphysico-theologico-cosmonigology. He proved admirably that there is no effect without a cause, and that, in this best of all possible worlds, My Lord the Baron’s castle was the most magnificent of castles and Madame the best of all possible baronesses.
+## Articles récents
 
-"It is demonstrated," said he, "that things cannot be otherwise: for, since everything is made for an end, everything is necessarily for the best end. Observe that noses were made to wear spectacles, and so we have spectacles. Legs were visibly instituted to be breeched, and we have breeches. Stones were formed to be hewn and to build castles with, and so My Lord has a very fine castle; the greatest baron of the province ought to be the best lodged; and, pigs having been made to be eaten, we eat pork all year round: consequently, those who asserted that all is well spoke nonsense; they ought to have said that all is for the best."
+<div class="post-list">
+  <article class="post-item">
+    <div class="post-meta">12 avr. 2026</div>
+    <a href="https://ton-profil.github.io/blog/optimiser-postgres" class="post-title">Réduire les temps de latence PostgreSQL sur des tables volumineuses</a>
+    <p class="post-desc">Retour d'expérience sur l'indexation partielle et le partitionnement en production.</p>
+  </article>
 
-Candide listened attentively, and believed innocently; for he found Miss Cunégonde exceedingly beautiful, though he never took the liberty of telling her so. He concluded that after the happiness of being born Baron of Thunder-ten-tronckh, the second degree of happiness was to be Miss Cunégonde; the third, to see her every day; and the fourth, to hear Master Pangloss, the greatest philosopher of the province, and consequently of the whole earth.
+  <article class="post-item">
+    <div class="post-meta">03 fév. 2026</div>
+    <a href="https://ton-profil.github.io/blog/pourquoi-go" class="post-title">Pourquoi nous avons migré notre microservice critique de Node.js vers Go</a>
+    <p class="post-desc">Analyse des gains en mémoire vive et simplification de la gestion de la concurrence.</p>
+  </article>
 
-One day, as Cunégonde was walking near the castle, in the little wood which they called the park, she saw through the bushes Doctor Pangloss giving a lesson in experimental physics to her mother's chambermaid, a very pretty and very docile little brunette. As Miss Cunégonde had great aptitudes for the sciences, she observed, without uttering a breath, the repeated experiments of which she was witness; she saw clearly the doctor's sufficient reason, the effects and the causes, and returned home much agitated, thoughtful, and filled with the desire to be learned, reflecting that she might well be the sufficient reason of young Candide, who might also be hers.
+  <article class="post-item">
+    <div class="post-meta">19 oct. 2026</div>
+    <a href="https://ton-profil.github.io/blog/pourquoi-go" class="post-title">La place du développeur à l'ère de l'IA</a>
+    <p class="post-desc">Quelles compétences viser, et pourquoi ?</p>
+  </article>
+</div>
 
-She met Candide on her return to the castle, and blushed; Candide blushed too; she bade him good-day in a broken voice, and Candide spoke to her without knowing what he was saying. The next day after dinner, as they rose from table, Cunégonde and Candide found themselves behind a screen; Cunégonde dropped her handkerchief, Candide picked it up; she innocently took his hand, the young man innocently kissed the young lady's hand with singular vivacity, sensibility, and grace; their mouths met, their eyes took fire, their knees trembled, their hands wandered. Monsieur the Baron of Thunder-ten-tronckh happened to pass by the screen, and seeing this cause and this effect, drove Candide out of the castle with great kicks in the backside; Cunégonde fainted away; she was slapped by Madame the Baroness as soon as she recovered her senses; and all was consternation in the finest and most agreeable of all possible castles.
+## Me trouver en ligne
 
-Candide, expelled from this earthly paradise, walked for a long time without knowing whither, weeping, raising his eyes to heaven, turning them often toward the finest of castles which contained the fairest of baronnettes; he lay down without supper in the open fields between two furrows; the snow fell in heavy flakes. Candide, numb with cold, dragged himself the following day toward the neighbouring town, which was called Valdberghoff-trarbk-dikdorff, having no money, and perishing of hunger and exhaustion. He halted mournfully at the door of an inn. Two men dressed in blue noticed him: "Comrade," said one, "there is a well-made young man, and one who has the required height." They walked up to Candide and invited him to dinner with great civility. "Gentlemen," Candide told them with charming modesty, "you do me much honour, but I have not wherewithal to pay my reckoning." — "Ah! sir," said one of the bluecoats, "persons of your figure and merit never pay anything: are you not five feet five inches tall?" — "Yes, gentlemen, that is my height," he said, making a bow. — "Ah! sir, sit down at table; not only will we defray your expenses, but we will never suffer a man like you to want for money; men are made only to help one another." — "You are right," said Candide: "that is what Monsieur Pangloss always told me, and I see clearly that all is for the best." They begged him to accept a few crowns; he took them and wished to give a receipt; they would not hear of it, and sat down to eat: "Do you not love tenderly?..." — "Oh! yes," he answered, "I tenderly love Miss Cunégonde." — "No," said one of the gentlemen, "we ask whether you do not tenderly love the King of the Bulgarians." — "Not at all," said he, "for I have never seen him." — "What! he is the most charming of kings, and you must drink his health." — "Oh! most willingly, gentlemen"; and he drank. "That is enough," said they, "you are now the support, the defender, the hero of the Bulgarians; your fortune is made, and your glory is assured." They immediately clapped irons on his legs and marched him off to the regiment. They made him turn to the right, to the left, raise the ramrod, return the ramrod, take aim, fire, march double-time, and gave him thirty strokes of the cane; the next day he performed the drill a little less badly, and received only twenty strokes; the day after, they gave him only ten, and he was regarded by his comrades as a prodigy.
-
-Candide, utterly astonished, could not yet quite make out how he was a hero. He took it into his head one fine spring morning to go for a stroll, walking straight ahead, believing it to be a privilege of the human species, as of the animal species, to use one's legs at pleasure. He had not gone two leagues when four other six-foot heroes overtook him, bound him, and dragged him to a dungeon. He was asked in due judicial form whether he preferred to be flogged thirty-six times by the whole regiment, or to receive twelve lead bullets through his brains at once. In vain did he argue that wills are free, and that he chose neither; a choice had to be made; by virtue of that gift of God called liberty, he resolved to run the gauntlet thirty-six times; he endured two runs. The regiment was composed of two thousand men; this amounted to four thousand strokes of the switch, which, from the nape of his neck down to his backside, laid bare his muscles and nerves. As they were about to proceed to the third run, Candide, unable to bear any more, begged as a favour that they would have the kindness to knock his head off; the favour was granted; they bandaged his eyes and made him kneel down. The King of the Bulgarians happened to pass by at that moment and inquired into the patient's crime; and as this king possessed great genius, he understood from all he learned of Candide that he was a young metaphysician, highly ignorant of worldly matters, and he granted him his pardon with a clemency that will be praised in every newspaper and throughout every century. A worthy surgeon cured Candide in three weeks with the emollients taught by Dioscorides. He had already grown a little skin and could walk, when the King of the Bulgarians gave battle to the King of the Abars.
-
-Nothing could be so fine, so smart, so brilliant, and so well-ordered as the two armies. The trumpets, fifes, oboes, drums, and cannons formed a harmony such as was never heard even in hell. The cannons first overturned about six thousand men on each side; next, musketry swept away from the best of worlds about nine to ten thousand rascals who infected its surface. The bayonet was likewise the sufficient reason for the death of several thousand men. The whole might well amount to thirty thousand souls. Candide, who trembled like a philosopher, hid himself as best he could during this heroic butchery.
-
-At length, while the two kings caused Te Deums to be sung, each in his own camp, he resolved to go elsewhere to reason on effects and causes. He stepped over heaps of dead and dying men, and first reached a neighbouring village; it was reduced to ashes: it was an Abar village that the Bulgarians had burned, in accordance with the laws of nations. Here, old men riddled with wounds looked on as their butchered wives died holding their infants to their bleeding breasts; there, girls disembowelled after having satisfied the natural needs of several heroes were breathing their last; others, half-burned, cried out for someone to finish putting them to death. Brains were scattered over the earth beside severed arms and legs.
-
-Candide fled as fast as he could to another village: it belonged to the Bulgarians, and the Abar heroes had treated it in the exact same manner. Candide, still walking over quivering limbs or across ruins, at last reached the area outside the theatre of war, carrying a few small provisions in his knapsack, and never forgetting Miss Cunégonde. His provisions failed him when he reached Holland; but having heard that everyone in that country was rich and a Christian, he did not doubt that he would be treated as well as he had been in the castle of Monsieur the Baron before he had been driven out for the fair eyes of Miss Cunégonde.
-
-He begged alms of several grave personages, who all replied that if he continued to ply this trade, he would be locked up in a house of correction to teach him how to live.
-
-He next addressed himself to a man who had just been preaching all alone for an hour on charity to a large assembly. This orator, looking at him askance, said: "What are you doing here? Are you here for the good cause?" — "There is no effect without a cause," Candide replied modestly; "all is necessarily linked and arranged for the best. It was necessary that I should be driven from Miss Cunégonde's side, that I should run the gauntlet, and it is necessary that I beg for my bread until I can earn it; all this could not be otherwise." — "My friend," said the orator, "do you believe that the Pope is the Antichrist?" — "I had not yet heard it said," answered Candide; "but whether he is or is not, I have no bread."
-
-"You do not deserve to eat any," said the other; "begone, rogue; begone, wretch; never come near me as long as you live!" The orator's wife, having put her head out of the window and seeing a man who doubted that the Pope was the Antichrist, poured over his head a full... O heavens! to what excesses does religious zeal carry the ladies!
-
-A man who had never been baptized, a worthy Anabaptist named Jacques, saw the cruel and ignominious manner in which one of his brothers, a two-legged creature without feathers who possessed a soul, was thus treated; he brought him home, washed him clean, gave him bread and beer, presented him with two florins, and even offered to teach him to work in his manufactories of Persian fabrics that are produced in Holland. Candide, almost prostrating himself before him, cried: "Master Pangloss told me truly that all is for the best in this world, for I am infinitely more touched by your extreme generosity than by the hardness of that gentleman in the black cloak and Madame his spouse."
-
-The next day, while taking a walk, he met a beggar all covered with pustules, his eyes lifeless, the tip of his nose eaten away, his mouth askew, his teeth black, speaking from his throat, tormented by a violent cough, and spitting out a tooth at every effort.
-
-Candide, moved even more by compassion than by horror, gave this dreadful beggar the two florins he had received from his honest Anabaptist Jacques. The spectre stared fixedly at him, shed tears, and threw his arms around his neck. Candide recoiled in terror. "Alas!" said the wretch to the other wretch, "do you no longer recognize your dear Pangloss?" — "What do I hear? You, my dear master! You, in this horrible state! What misfortune has befallen you? Why are you no longer in the finest of castles? What has become of Miss Cunégonde, the pearl of girls, the masterpiece of nature?" — "I can bear no more," said Pangloss. Forthwith Candide led him into the Anabaptist's stable, where he made him eat a little bread; and when Pangloss had recovered: "Well!" said he, "Cunégonde?" — "She is dead," returned the other. Candide fainted at this word; his friend revived him with a little bad vinegar that happened to be in the stable. Candide reopened his eyes. "Cunégonde is dead! Ah! best of worlds, where are you? But of what sickness did she die? Could it be from seeing me driven out of the fine castle of Monsieur her father with great kicks in the backside?" — "No," said Pangloss; "she was disembowelled by Bulgarian soldiers, after having been violated as much as one can be; they bashed in the head of Monsieur the Baron who sought to defend her; Madame the Baroness was hacked to pieces; my poor pupil was treated precisely like his sister; and as for the castle, not one stone was left upon another, not a barn, not a sheep, not a duck, not a tree; but we were well avenged, for the Abars did as much in a neighbouring barony that belonged to a Bulgarian lord."
-
-At this speech, Candide fainted again; but having returned to his senses, and said all that was proper to say, he inquired after the cause and the effect, and the sufficient reason that had reduced Pangloss to so pitiable a state. "Alas!" said the other, "it is love; love, the consoler of the human race, the preserver of the universe, the soul of all sensible beings, tender love." — "Alas!" said Candide, "I too have known this love, this sovereign of hearts, this soul of our soul; it never brought me anything but one kiss and twenty kicks in the backside. How could this beautiful cause produce in you so abominable an effect?"
-
-Pangloss replied in these words: "O my dear Candide! You knew Paquette, that pretty waiting-maid to our august Baroness; in her arms I tasted the delights of paradise, which have produced these hellish torments with which you see me devoured; she was infected with it, and has perhaps died of it. Paquette held this present from a very learned Franciscan friar, who had traced it to its source; for he had received it from an old countess, who received it from a cavalry captain, who owed it to a marchioness, who held it from a page, who had received it from a Jesuit, who, while a novice, had had it in a direct line from one of Christopher Columbus's companions. As for me, I shall give it to no one, for I am dying."
-
-"O Pangloss!" cried Candide, "what a strange genealogy! Was not the devil the root of it?" — "Not at all," replied that great man; "it was an indispensable thing in the best of worlds, a necessary ingredient; for if Columbus had not caught, in an island of America, this disease which poisons the source of generation, which often even prevents generation, and which is evidently the opposite of nature's great end, we would have neither chocolate nor cochineal; it must also be observed that down to this day, on our continent, this disease is peculiar to us, like theological dispute. The Turks, the Indians, the Persians, the Chinese, the Siamese, the Japanese do not yet know it; but there is a sufficient reason why they should know it in their turn within a few centuries. In the meantime, it has made marvellous progress among us, and especially in those vast armies composed of honest, well-bred mercenaries, who decide the destiny of states; one may be assured that when thirty thousand men fight in pitched battle against troops of equal number, there are about twenty thousand pox-ridden men on each side."
-
-"This is admirable," said Candide, "but you must be cured." — "And how can I be?" said Pangloss; "I have not a penny, my friend; and across the whole extent of this globe, one cannot get bled or take an enema without paying, or without having someone pay for us."
-
-This last speech decided Candide; he went and threw himself at the feet of his charitable Anabaptist Jacques, and painted so touching a picture of the state to which his friend was reduced that the good man did not hesitate to take Doctor Pangloss in; he had him cured at his own expense. In the cure, Pangloss lost only one eye and one ear. He wrote well and was a master of arithmetic. The Anabaptist Jacques made him his bookkeeper. At the end of two months, being obliged to go to Lisbon on mercantile business, he took his two philosophers aboard his ship. Pangloss explained to him how everything was as well as could possibly be. Jacques was not of this opinion. "Men," said he, "must have corrupted nature a little, for they were not born wolves, and they have become wolves. God gave them neither twenty-four-pounder cannons nor bayonets, yet they have made bayonets and cannons to destroy one another. I might take into account bankruptcies, and the law which seizes the property of bankrupts to cheat their creditors." — "All that was indispensable," replied the one-eyed doctor, "and private misfortunes make the general good, so that the more private misfortunes there are, the more all is well." While he was reasoning, the sky darkened, the winds blew from the four corners of the earth, and the ship was assailed by the most dreadful tempest in sight of the port of Lisbon.
-
-Half the passengers, weakened and expiring from those inconceivable agonies which the rolling of a vessel produces in the nerves and all the humours of the body tossed in contrary directions, had not even the strength to feel alarmed at the danger. The other half shrieked and offered prayers; the sails were torn to ribbons, the masts shattered, the ship split open. Whoever could worked; no one could make himself heard, no one commanded. The Anabaptist was helping a little with the manoeuvres; he was on the quarterdeck; a furious sailor struck him roughly and laid him flat on the planks; but from the blow he dealt him, he himself received so violent a jolt that he fell overboard headlong. He remained suspended and clinging to a piece of broken mast. Good Jacques ran to his rescue, helped him climb back up, and from the effort he made was pitched into the sea in full view of the sailor, who let him perish without deigning even to look at him. Candide drew near, saw his benefactor appear for a moment, and then be swallowed up forever. He wished to throw himself after him into the sea; the philosopher Pangloss prevented him, proving to him that the roadstead of Lisbon had been formed on purpose for this Anabaptist to drown in. While he was proving this a priori, the ship split open, and everything perished except Pangloss, Candide, and that brutal sailor who had drowned the virtuous Anabaptist; the rogue swam safely to shore, where Pangloss and Candide were carried on a plank.
-
-When they had recovered their senses a little, they walked toward Lisbon; they had some money left, with which they hoped to save themselves from starvation after having escaped the storm.
-
-Hardly had they set foot in the city, weeping over the death of their benefactor, when they felt the earth tremble beneath their feet; the sea rose boiling in the harbour and shattered the ships at anchor. Whirlwinds of flames and ashes covered the streets and public squares; houses collapsed, roofs were thrown down upon their foundations, and the foundations scattered; thirty thousand inhabitants of every age and sex were crushed beneath the ruins. The sailor said, whistling and swearing: "There will be something to gain here." — "What can be the sufficient reason for this phenomenon?" said Pangloss. — "This is the last day of the world!" cried Candide. The sailor ran immediately into the midst of the rubble, braved death to find money, found some, seized it, got drunk, and, having slept off his wine, bought the favours of the first girl of good will he met on the ruins of the shattered houses, amidst the dying and the dead. Pangloss, however, pulled him by the sleeve. "My friend," said he, "this is not right; you are failing universal reason, you choose your time poorly." — "Blood and thunder!" replied the other, "I am a sailor, born at Batavia; I have trodden upon the crucifix four times during four voyages to Japan; you have certainly found the right man with your universal reason!"
-
-Some fragments of falling stone had wounded Candide; he lay stretched out in the street, covered with rubble. He said to Pangloss: "Alas! get me a little wine and oil; I am dying." — "This earthquake is no new thing," Pangloss replied; "the city of Lima suffered the same tremors in America last year; same causes, same effects: there is certainly a vein of sulphur underground from Lima to Lisbon." — "Nothing is more probable," said Candide; "but, for God's sake, a little oil and wine."</p>
-
-<br><span style="font-size: 12px; font-style: italic;">Extract from Candide, by Voltaire</span>
+<ul class="social-links">
+  <li><strong>Email :</strong> <a href="mailto:contact@exemple.fr">contact@exemple.fr</a></li>
+  <li><strong>GitHub :</strong> <a href="https://github.com/ton-profil" target="_blank" rel="noreferrer">github.com/ton-profil</a></li>
+  <li><strong>LinkedIn :</strong> <a href="https://linkedin.com/in/ton-profil" target="_blank" rel="noreferrer">linkedin.com/in/ton-profil</a></li>
+  <li><strong>Clé PGP :</strong> <a href="./pgp-key.txt">0x9F4D2B8A</a></li>
+</ul>
 
 </div>
 
+## Parcours
+
+- **2024 — Aujourd'hui** : Développeur Senior chez *Studio Nord*.
+- **2021 — 2024** : Développeur Backend chez *Atelier Data*.
+- **2018 — 2021** : Diplôme d'ingénieur en informatique.
+
+---
+
+<footer class="footer">
+  <p>© 2026 Alexandre Fuentes — Hébergé sur GitHub Pages</p>
+</footer>
