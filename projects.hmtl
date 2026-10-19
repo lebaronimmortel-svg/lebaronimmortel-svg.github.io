@@ -1,0 +1,24 @@
+<link rel="stylesheet" href="./style.css?v=2">
+
+<div class="hero">
+  <div class="hero-body">
+    <div class="hero-text">
+      <span class="badge">Available for missions</span>
+      
+      <p class="lead">
+      Full-stack and systems developer,<br>
+      clean interfaces and software architecture.
+      </p>
+      
+      <div class="hero-links">
+        <a href="https://github.com/lebaronimmortel-svg" class="btn btn-primary">GitHub</a>
+        <a href="https://www.linkedin.com/in/alexandre-fuentes-995ab33b8/" class="btn btn-secondary">Linkedin</a>
+        <a href="mailto:alexfuen@42angouleme.fr" class="btn btn-secondary">Mail</a>
+      </div>
+    </div>
+
+    <div class="hero-avatar">
+      <img src="./baldwin.jpg" alt="Alexandre Fuentes">
+    </div>
+  </div>
+</div>
