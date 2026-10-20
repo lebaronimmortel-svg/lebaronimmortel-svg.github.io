@@ -145,6 +145,16 @@ body {
   background-color: var(--bg-card);
 }
 
+.btn-ternary {
+  background-color: var(--accent);
+  border: 1px solid var(--border);
+  color: #ffffff;
+}
+
+.btn-ternary:hover {
+  background-color: var(--accent-hover);
+}
+
 h2 {
   font-size: 1.4rem;
   font-weight: 600;
@@ -349,6 +359,26 @@ a:hover {
   margin-bottom: 3rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--border);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Envoie un élément tout à gauche et l'autre tout à droite */
+  align-items: center;            /* Aligne verticalement les deux textes */
+  width: 100%;
+  margin-bottom: 2rem;            /* Espace avant la ligne ou le contenu suivant */
+}
+
+.nav-title {
+  margin: 0;                      /* Supprime la marge par défaut du h1 */
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #19191a9d;                 /* Couleur bleue actuelle du lien */
+  font-weight: 500;
 }
 
 .nav-brand {
