@@ -145,16 +145,6 @@ body {
   background-color: var(--bg-card);
 }
 
-.btn-ternary {
-  background-color: var(--accent);
-  border: 1px solid var(--border);
-  color: #ffffff;
-}
-
-.btn-ternary:hover {
-  background-color: var(--accent-hover);
-}
-
 h2 {
   font-size: 1.4rem;
   font-weight: 600;
@@ -175,13 +165,23 @@ h2 {
   background-color: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 8px;
-  padding: 1.25rem;
+  padding: 1.25rem 1.25rem 2.5rem; /* Espace réservé en bas pour accueillir le lien sans bouger */
   display: flex;
   flex-direction: column;
+  position: relative; /* Indispensable pour caler le lien en bas */
+  box-sizing: border-box;
+  /* Transition uniquement sur l'ombre et la couleur de bordure (taille figée) */
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+/* 🌟 Surbrillance au survol (strictement visuelle, zéro déformation) */
+.card:hover {
+  border-color: #0ab350;
+  box-shadow: 0 0 16px rgba(59, 130, 246, 0.25);
 }
 
 .card h3 {
-  color : #5c5c5c;
+  color: #5c5c5c;
   margin: 0 0 0.5rem;
   font-size: 1.1rem;
 }
@@ -189,7 +189,52 @@ h2 {
 .card p {
   color: var(--text-muted);
   font-size: 0.95rem;
-  flex-grow: 1;
+  margin-bottom: 0.75rem;
+}
+
+.card > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+/* 🔗 Lien positionné sans impacter la taille */
+.card .view-code {
+  position: absolute;
+  bottom: 0.85rem;
+  left: 1.25rem;
+  color: #0ab350;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease, color 0.15s ease;
+  display: inline-block;
+  font-size: 1.0rem;
+  font-weight: 600;
+  color: #10b981;
+  background-color: rgba(16, 185, 129, 0.1);
+  padding: 0.2rem 0.6rem;
+  border-radius: 9999px;
+}
+
+/* 👁️ Apparition purement en fondu */
+.card:hover .view-code {
+  opacity: 1;
+  pointer-events: auto;
+  display: inline-block;
+  font-size: 1.0rem;
+  font-weight: 600;
+  color: #10b981;
+  background-color: rgba(16, 185, 129, 0.1);
+  padding: 0.2rem 0.6rem;
+  border-radius: 9999px;
+}
+
+.card .view-code:hover {
+  color: #0ab350;
+  text-decoration: underline;
 }
 
 .tag {
