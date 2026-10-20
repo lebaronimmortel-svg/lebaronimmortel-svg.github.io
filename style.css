@@ -56,6 +56,12 @@ body {
   min-width: 0;
 }
 
+.hero-name {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 1rem 0;
+}
+
 .badge {
   display: inline-block;
   margin-bottom: 0.75rem;
@@ -71,8 +77,8 @@ body {
 }
 
 .hero-avatar img {
-  width: 140px;
-  height: 185px;
+  width: 160px;
+  height: 205px;
   object-fit: cover;
   border-radius: 12px;
   border: 1px solid var(--border);
@@ -80,7 +86,7 @@ body {
 }
 
 .hero h1 {
-  font-size: 2.25rem;
+  font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: -0.03em;
   margin: 0.5rem 0 1rem;
@@ -211,7 +217,7 @@ h2 {
   pointer-events: none;
   transition: opacity 0.4s ease, color 0.15s ease;
   display: inline-block;
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   font-weight: 600;
   color: #10b981;
   background-color: rgba(16, 185, 129, 0.1);
@@ -224,7 +230,7 @@ h2 {
   opacity: 1;
   pointer-events: auto;
   display: inline-block;
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   font-weight: 600;
   color: #10b981;
   background-color: rgba(16, 185, 129, 0.1);
