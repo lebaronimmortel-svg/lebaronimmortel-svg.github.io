@@ -171,16 +171,14 @@ h2 {
   background-color: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 8px;
-  padding: 1.25rem 1.25rem 2.5rem; /* Espace réservé en bas pour accueillir le lien sans bouger */
+  padding: 1.25rem 1.25rem 2.5rem;
   display: flex;
   flex-direction: column;
-  position: relative; /* Indispensable pour caler le lien en bas */
+  position: relative;
   box-sizing: border-box;
-  /* Transition uniquement sur l'ombre et la couleur de bordure (taille figée) */
   transition: box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
-/* 🌟 Surbrillance au survol (strictement visuelle, zéro déformation) */
 .card:hover {
   border-color: #0ab350;
   box-shadow: 0 0 16px rgba(59, 130, 246, 0.25);
@@ -204,7 +202,6 @@ h2 {
   gap: 0.35rem;
 }
 
-/* 🔗 Lien positionné sans impacter la taille */
 .card .view-code {
   position: absolute;
   bottom: 0.85rem;
@@ -225,7 +222,6 @@ h2 {
   border-radius: 9999px;
 }
 
-/* 👁️ Apparition purement en fondu */
 .card:hover .view-code {
   opacity: 1;
   pointer-events: auto;
@@ -414,21 +410,21 @@ a:hover {
 
 .navbar {
   display: flex;
-  justify-content: space-between; /* Envoie un élément tout à gauche et l'autre tout à droite */
-  align-items: center;            /* Aligne verticalement les deux textes */
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
-  margin-bottom: 2rem;            /* Espace avant la ligne ou le contenu suivant */
+  margin-bottom: 2rem;
 }
 
 .nav-title {
-  margin: 0;                      /* Supprime la marge par défaut du h1 */
+  margin: 0;
   font-size: 1.5rem;
   font-weight: bold;
 }
 
 .nav-link {
   text-decoration: none;
-  color: #19191a9d;                 /* Couleur bleue actuelle du lien */
+  color: #19191a9d;
   font-weight: 500;
 }
 
